@@ -1,4 +1,6 @@
 spring:
   application:
     name: screenmatch
+  jackson:
+    property-naming-strategy: com.fasterxml.jackson.databind.PropertyNamingStrategies.SnakeCaseStrategy
 
